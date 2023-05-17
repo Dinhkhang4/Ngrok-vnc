@@ -1,0 +1,9 @@
+echo "Wellcome to github"
+apt update && apt upgrade -y
+pkg install x11-repo wget git xh mariadb root-repo
+wget https://raw.githubusercontent.com/Dinhkhang4/Ngrok-vnc/main/install.sh
+echo "now your install proot"
+pkg install proot-distro
+bash install.sh
+echo "now is start-alpine.sh to root"
+./start-alpine.sh
